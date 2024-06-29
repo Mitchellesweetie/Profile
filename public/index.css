@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+
+}
+body{
+	
+	color: white;
+
+}
+.top{
+	height: 100vh;
+	background:url(andbg.jpg);
+	justify-content: center;
+	display:flex;
+
+
+}
+.topnav a{
+	overflow: hidden;
+	float: right;
+	display: block;
+	padding: 30px 30px;
+	font-size: 22px;
+	color: white;
+	font-weight: 50;
+	text-decoration: none;
+
+}
+.topnav a:hover{
+	background:black;
+	color: white;
+	padding: 14px 14px;
+}
+.center{
+	float: left;
+	clear: left;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
+.container{
+	height: 200px;
+	width: 200px;
+	background: white;
+}
+.container2{
+	height: 100vh;
+	width: 200vh;
+	
+	
+}
+.text{
+	top: 300px;
+	position: absolute;
+	font-size: 80px;
+	font-weight: 70px;
+	margin-left: 500px;
+	color: white;
+}
+.text img{
+	height: 70px;
+	width: 70px;
+}
+.paragraph{
+	height: 60vh;
+	background: #302f2f;
+	text-align: center;
+	font-size: 10px;
+	font-weight: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.empty{
+	padding: 30px;
+	margin: 30px;
+	background: white;
+	height: auto;
+	text-align: center;
+	justify-content: center;
+	font-size: 30px;
+	font-style: 20px;
+	color: #000;
+}
+.empty div{
+	padding: 40px;
+
+}
+.pdf{
+	color: #8d8484;
+	font-size: 20px;
+	font-weight: 20px;
+	float: left;
+	padding: 0px;
+	margin: 30px;
+}
+.pdf:hover{
+	background: white;
+	color: black;
+}
+.profile-details img{
+	border-radius: 300px;
+	margin-left: 80px;
+	height: 400px;
+	width: 400px;
+	float: left;
+
+
+}
+.profile-details{
+	height: 200px;
+	float: right;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	font-weight: 300px;
+	margin: 50px;
+	margin-top: 150px;
+
+}
+.background{
+	background:white;
+
+}
+.education{
+	margin: 50px;
+}
+hr{
+	background: rgb(3, 184, 3);
+	height: 5px;
+	width: 120px;
+
+}
+.projects{
+	background: #cab3b3;
+	color: #807777;
+	height: 600px;
+	
+}
+
+.contacts{
+	height: 500px;
+	padding: 30px;
+}
+.project_one{
+	width: 100px;
+	height: 400px;
+	display: flex;
+	padding: 20px;
+	float: right;
+	margin-right: 1000px;
+
+}
+.project_two{
+	width: 100px;
+	height: 400px;
+	display: flex;
+	margin: 0px;
+	padding: 20px;
+	float: left;
+
+}
+.project_one a,.project_two a{
+	display: flex;
+	text-decoration: none;
+	padding: 5px;
+	margin: 0px;
+}
+.project_two img,.project_one img{
+	height: 400px;
+	width: 250px;
+	padding: 20px;
+}
+.email{
+	align-items: center;
+	font-size: 20px;
+	margin: 0;
+	padding: 30px;
+	background: rgb(20, 19, 19);
+	color: white;
+	text-align: center;
+}
+.email form{
+	font-size: 20px;
+	height: 800px;
+	width: 700px;
+	justify-content: center;
+	display: inline-block;
+	margin: 0;
+	padding: 30px;
+	background: rgb(20, 19, 19);
+	color: white;
+	text-align: center;
+}
+.email div{
+	padding: 30px;
+}
+
+.email input{
+	width: 350px;
+	height: 50px;
+}
+div textarea{
+	height: 200px;
+	width: 500px;
+}
+div button{
+	height: 70px;
+	width: 300px;
+	background: #3d3d3d;
+	border: solid #3d3d3d;
+}
+div button:hover{
+	background: #8a7373;
+}
+
